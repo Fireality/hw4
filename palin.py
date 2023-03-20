@@ -3,3 +3,4 @@ def palindrome(a):
 		if str[i] != str[len(str)-i-1]:
 			return False
 	return True
+#Test1
