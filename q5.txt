@@ -1,0 +1,4 @@
+1. Variable "a" won't change after undergoing function incrememnt_int_a. 
+2. Variable "b" will increment as the function increment_int_b intended. 
+3. This is because variable "b" is a list, therefore it is modifiable after the list is defined. However, "a" will
+revert back to its original value after the function.
