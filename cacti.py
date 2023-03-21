@@ -24,6 +24,6 @@ def cacti_number(plant):
 				if i < rows -1 and p < column -1 and plant[i+1][p+1] == 1:
 					diagonal = False
 
-				if diagonal:
+				if not diagonal:
 					count += 1
 	return count
