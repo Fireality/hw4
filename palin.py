@@ -1,6 +1,7 @@
 def palindrome(a):
-	for i in range(0, int(len(str)/2)):
-		if str[i] != str[len(str)-i-1]:
+	n = len(a)
+	for i in range (n // 2):
+		if a[i] != a[n- i -1]:
 			return False
 	return True
 #Test1
