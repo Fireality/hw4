@@ -17,7 +17,7 @@ def cacti_number(plant):
 					diagonal = False
 				if i > 0 and p > 0 and plant[i-1][p-1] == 1:
 					diagonal = False
-				if i > 0 and p < column - 1 and plot [i-1][p+1] == 1:
+				if i > 0 and p < column - 1 and plant [i-1][p+1] == 1:
 					diagonal = False
 				if i < rows -1 and p > 0 and plant[i+1][p-1] == 1:
 					diagonal = False
