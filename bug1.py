@@ -1,6 +1,9 @@
 # TODO: there's code missing in one or more lines below
 class Base:
 def __init__(self, x, y, size):
+	self.x = x
+	self.y =y
+	self.size = size
 
 # TODO: will need to fill this in
 def draw(self):
@@ -10,8 +13,6 @@ def __init__(x, y, size):
 super().__init__(x,y,size)
 def draw(self):
 return f"""
-3
-CMPE 131: HW2a: Python
 ({self.x}, {self.y})
 {self.size}
 , - ~ ~ ~ - ,
