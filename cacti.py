@@ -1,6 +1,6 @@
 def cacti_number(plant):
 	rows = len(plant)
-	column = len(plot)
+	column = len(plot[0])
 	count = 0
 
 	for i in range(rows):
@@ -25,3 +25,4 @@ def cacti_number(plant):
 					diagonal = False
 				if diagonal:
 					count = count + 1
+	return count
