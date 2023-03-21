@@ -7,7 +7,7 @@ def cacti_number(plant):
 		for p in range (column):
 			if plant[i][p] == 0:
 				diagonal = True
-				if i > 0 and plant[i][p-1] == 1:
+				if i > 0 and plant[i-1][p] == 1:
 					diagonal = False
 				if p > 0 and plant[i][p-1] == 1:
 					diagonal = False
