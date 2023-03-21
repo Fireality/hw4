@@ -1,6 +1,6 @@
-def double (a):
+def double (top_of_the_morning):
 	def rewind_time():
-		a()
+		top_of_the_morning()
 		print("Let's try that again!")
-		a()
+		top_of_the_morning()
 	return rewind_time
